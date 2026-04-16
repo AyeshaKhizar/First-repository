@@ -2,12 +2,20 @@
 
 function openPopup() {
     document.getElementById("popup").style.display = "block";
+<<<<<<< HEAD
+    document.body.style.overflow = "hidden";
+=======
     document.body.style.overflow = "hidden"; // 🔒 stop background scroll
+>>>>>>> 3826e25e0b5ab8747a32fcf7a9d614cf9f7dc996
 }
 
 function closePopup() {
     document.getElementById("popup").style.display = "none";
+<<<<<<< HEAD
+    document.body.style.overflow = "auto";
+=======
     document.body.style.overflow = "auto"; // 🔓 restore scroll
+>>>>>>> 3826e25e0b5ab8747a32fcf7a9d614cf9f7dc996
 }
 
 
@@ -51,7 +59,11 @@ function updateSlider1() {
     dots[index].classList.add("active");
 }
 
+<<<<<<< HEAD
+
+=======
 /* Buttons */
+>>>>>>> 3826e25e0b5ab8747a32fcf7a9d614cf9f7dc996
 document.querySelector(".next").onclick = () => {
     index = (index + 1) % slide1.length;
     updateSlider1();
@@ -64,6 +76,11 @@ document.querySelector(".prev").onclick = () => {
 
 
 
+<<<<<<< HEAD
+
+updateSlider1();
+
+=======
 /* Init */
 updateSlider1();
 // const track = document.querySelector(".slider-track");
@@ -152,6 +169,7 @@ updateSlider1();
 //     }
 //     updateSlider();
 // };
+>>>>>>> 3826e25e0b5ab8747a32fcf7a9d614cf9f7dc996
 const video = document.getElementById("hoverVideo");
 const box = document.querySelector(".box");
 

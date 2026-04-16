@@ -238,7 +238,11 @@ img {
 }
 
 
+<<<<<<< HEAD
+
+=======
 /* LEFT FADE */
+>>>>>>> 3826e25e0b5ab8747a32fcf7a9d614cf9f7dc996
 .slider::before {
     content: "";
     position: absolute;
@@ -254,7 +258,11 @@ img {
             rgba(0, 0, 0, 0));
 }
 
+<<<<<<< HEAD
+
+=======
 /* RIGHT FADE */
+>>>>>>> 3826e25e0b5ab8747a32fcf7a9d614cf9f7dc996
 .slider::after {
     content: "";
     position: absolute;
@@ -977,16 +985,27 @@ p {
     display: inline-flex;
     margin-right: 15px;
     margin-top: 10px;
+<<<<<<< HEAD
+=======
     font-weight: bold;
+>>>>>>> 3826e25e0b5ab8747a32fcf7a9d614cf9f7dc996
     font-size: 20px;
     color: #050606;
     display: flex;
     justify-content: space-evenly;
 }
 
+<<<<<<< HEAD
+.state h2 {
+    font-weight: bold;
+}
+
+.state p {
+=======
 
 
 .stats p {
+>>>>>>> 3826e25e0b5ab8747a32fcf7a9d614cf9f7dc996
     text-align: left;
     color: black;
 
@@ -1001,7 +1020,11 @@ p {
     right: 10px;
 }
 
+<<<<<<< HEAD
+
+=======
 /* Dots */
+>>>>>>> 3826e25e0b5ab8747a32fcf7a9d614cf9f7dc996
 .dots {
     text-align: center;
     margin-top: 15px;
