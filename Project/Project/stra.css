@@ -1,0 +1,36 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    background: black;
+}
+
+canvas {
+    display: block;
+}
+
+h1 {
+    color: white;
+    transform: translate(50px, 50px);
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.overlay h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.overlay p {
+    font-size: 24px;
+}
